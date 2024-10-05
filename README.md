@@ -46,6 +46,8 @@ int main(void)
 	printf("The process id of parent function: %d\n",p_process_id);
 	return 0;
 }
+
+
 ```
 
 
@@ -60,7 +62,7 @@ int main(void)
 
 
 
-## OUTPUT
+### OUTPUT
 
 
 
@@ -93,6 +95,8 @@ printf("I am parent, my pid is %d\n",getpid());
 sleep(100); 
 exit(0);} 
 }
+
+
 ```
 
 
@@ -106,7 +110,7 @@ exit(0);}
 
 
 
-## OUTPUT
+### OUTPUT
 
 
 
@@ -144,6 +148,8 @@ printf("Running ps with execlp. Now with path specified\n");
                 puts("child did not exit successfully\n");
         printf("Done.\n");
         exit(0);}
+
+
 ```
 
 
@@ -168,7 +174,7 @@ printf("Running ps with execlp. Now with path specified\n");
 
 
 
-## OUTPUT
+### OUTPUT
 
 
 
